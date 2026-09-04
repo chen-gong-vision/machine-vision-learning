@@ -1,0 +1,57 @@
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ============ .NET / Visual Studio ============
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userprefs
+packages/
+*.pdb
+*.cache
+
+# ============ 图像与视频数据（体积大，绝不进仓库）============
+data/raw/
+data/images/
+data/output/
+*.bmp
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.avi
+*.mp4
+*.mkv
+
+# ============ 模型权重（几十 MB ~ 几 GB）============
+*.onnx
+*.pt
+*.pth
+*.engine
+*.weights
+*.h5
+weights/
+models/
+
+# ============ 日志与临时文件 ============
+logs/
+*.log
+tmp/
+temp/
+~$*
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
+desktop.ini
